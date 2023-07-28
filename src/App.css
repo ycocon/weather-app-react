@@ -147,3 +147,12 @@ html {
   font-size: 3rem;
   animation: colorChange 4s infinite;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  :root {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 350px;
+  }
+}
